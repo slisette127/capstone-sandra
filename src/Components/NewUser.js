@@ -1,5 +1,7 @@
 import {useState} from "react";
 import "../App.css" 
+import "../NewUser.css"
+
 
 function NewUser() {
 
@@ -29,14 +31,7 @@ function NewUser() {
     }
 
     return (
-        <div className="App"
-          style={{
-            width:"300px",
-            margin:"20px auto auto auto",
-            border:"1px black solid",
-            borderRadius: '25px'
-          }}
-        >
+        <div className="container">
           <h1>Create a User</h1>
           <form onSubmit={handleSubmit}
             style={{

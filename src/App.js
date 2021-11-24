@@ -1,5 +1,8 @@
-import react from 'react';
+import React from 'react';
 import './App.css';
+import LogIn from './Components/LogIn';
+import NavBar from './Components/NavBar';
+import NewUser from './Components/NewUser'
 
 function App() {
   return (
@@ -10,3 +13,4 @@ function App() {
 }
 
 export default App;
+
